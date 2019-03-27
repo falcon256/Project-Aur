@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: PlanetMaterial
   m_Shader: {fileID: 4800000, guid: 6323edea79383ed4b9019b366abb1106, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON _NORMALMAP _PARALLAXMAP
+  m_ShaderKeywords: _ALPHATEST_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -62,7 +62,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Cutoff: 0.5
+    - _Cutoff: 1
     - _DetailNormalMapScale: 1
     - _DispOffset: 0.5
     - _Displacement: 1
@@ -83,7 +83,7 @@ Material:
     - _TessMode: 0
     - _UVSec: 0
     - _ZWrite: 1
-    - _maxDist: 1
+    - _maxDist: 256
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
